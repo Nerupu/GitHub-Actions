@@ -1,0 +1,14 @@
+name: first workflow 
+on: workflow_dispatch  # Trigger this is a manual trigger
+#
+jobs:
+  first-job: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Print Greeting
+        run: echo"hello yaml"
+      - name: Print Goodbye
+        run: echo "Now getlost Tata"
+        
+      
+    
